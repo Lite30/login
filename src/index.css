@@ -11,7 +11,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: slateblue;
-
+  background: url('./Components/Assests/Security\ Background\ Image\ Online\ Banking\ Fsb.jpg')
+  no-repeat;
+  background-size: cover;
+  background-position: center;
 
 }
