@@ -19,26 +19,39 @@
   .sidebar ul {
     list-style-type: none;
     padding: 0;
+    width: 100%;
   }
   
+
   .sidebar li {
     width: 100%;
     padding: 10px 15px;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align items vertically */
+    gap: 5px; /* Space between icon and text */
+    cursor: pointer;
   }
-  
+
   .sidebar li a, .sidebar li button {
     color: #fff;
     text-decoration: none;
-    width: 100%;
+    flex: 1; /* Allow link/button to take available space */
     text-align: left;
     background: none;
     border: none;
-    cursor: pointer;
-    padding: 10px 15px;
-    display: block;
+    padding: 0; /* Remove padding from link/button */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align items vertically */
+    gap: 5px; /* Reduced gap between icon and text */
   }
   
-  .sidebar li a:hover, .sidebar li button:hover {
+  .sidebar li:hover {
     background-color: #575757;
+    border-radius: 20px; /* Optional: round corners for hover effect */
   }
+  
+  .sidebar li svg { /* Style for icons */
+    font-size: 1.5em; /* Adjust icon size */
+  }
+  
   
