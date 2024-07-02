@@ -1,0 +1,8 @@
+/* Components/MainContent/MainContent.css */
+.main-content {
+    margin-left: 200px; /* Space for the sidebar */
+    padding: 20px;
+    background-color: #f4f4f4; /* Optional background color for content area */
+    height: 100vh; /* Full height of viewport */
+    overflow: auto; /* Scroll if content exceeds height */
+}

@@ -1,0 +1,44 @@
+/* Components/Navbar/Navbar.css */
+.sidebar {
+    width: 200px;
+    height: calc(100vh - 100px); /* Adjust for top and bottom padding */
+    position: fixed;
+    top: 50px; /* Align with padding */
+    left: 50px; /* Align with padding */
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    width: 100%;
+    padding: 10px 15px;
+  }
+  
+  .sidebar li a, .sidebar li button {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .sidebar li a:hover, .sidebar li button:hover {
+    background-color: #575757;
+  }
+  
